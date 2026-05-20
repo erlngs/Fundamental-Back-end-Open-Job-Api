@@ -1,0 +1,17 @@
+{
+  "name": "open-job-consumer",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node consumer.js",
+    "start:dev": "nodemon consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^17.4.2",
+    "nodemailer": "^6.9.0",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
