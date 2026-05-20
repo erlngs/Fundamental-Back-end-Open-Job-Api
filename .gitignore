@@ -1,0 +1,11 @@
+# Dependencies
+**/node_modules/
+
+# Environment
+**/.env
+
+# Uploads
+open-job-api/uploads/
+
+# Database
+open-job-api/database.json
